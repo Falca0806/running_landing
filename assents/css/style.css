@@ -1,0 +1,111 @@
+.container {
+    max-width: 1100px;
+}
+header {
+    background-image: url('https://img.freepik.com/premium-photo/movement-smoke-abstract-isolated-white-background_55716-1462.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+.title-color{
+   color: white;
+}
+.logo{
+    border-radius: 20%;
+    width: 100px;
+}
+#row-historia{
+    background-image: url('https://img.freepik.com/free-photo/thin-whiff-white-smoke_23-2147734817.jpg?w=996&t=st=1678396697~exp=1678397297~hmac=b45860597145543dd22f0386508279a7c418cb645e7c252a2e782b80bcab1fda');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.row{
+    margin: 0;
+
+}
+.img1{
+    width: 120px;
+    height: 100px;
+}
+#row-running{
+    background-image: url('https://img.freepik.com/free-photo/thin-puff-smoke_23-2147734795.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-soccer{
+    background-image: url('https://img.freepik.com/free-photo/abstract-geometric-background-shapes-texture_1194-301826.jpg?w=740&t=st=1678397234~exp=1678397834~hmac=bca2d30df4cefd5f823c9e87deef67905c30fa779ff319717defbc25c218ec35');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-sneaker{
+    background-image: url('https://img.freepik.com/free-photo/thin-puff-smoke_23-2147734795.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#row-basketball{
+    background-image: url('https://img.freepik.com/free-photo/stone-texture_1194-9119.jpg?w=740&t=st=1678397328~exp=1678397928~hmac=c6c4655cdb43a401d445c8a2cf2b3bc5503a9bc35b052948700540997ecbefff');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#row-historia img{
+    border-radius: 20%;
+    width: 300px;
+}
+#row-running img{
+    border-radius: 20%;
+}
+#row-soccer img{
+    border-radius: 20%;
+}
+#row-sneaker img{
+    border-radius: 20%;
+}
+
+#row-basketball img{
+    border-radius: 20%;
+}
+#row-historia p{
+    font-size: 15px;
+}
+#row-sneaker p{
+    font-size: 15px;
+}
+.form-control{
+    border-radius: 50px;
+}
+footer{
+    background-image: url('https://img.freepik.com/free-photo/tendrils-red-smoke_23-2147734811.jpg');
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: white;
+        color: black;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+nav{
+    z-index: 100;
+    font-size: 20px;
+}
+
+nav a:hover{
+    background-color: white;
+    padding-left: 20px;
+}
